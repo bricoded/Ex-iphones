@@ -7,13 +7,26 @@
   <title>Ex-iphones</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- FONTS -->
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap"
     rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- ICONS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- SLIDERS -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js" defer></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index.css">
+
+  <!-- JS -->
+  <script src="./js/index.js" defer></script>
 </head>
 
 <body>
@@ -62,49 +75,49 @@
       <div class="collection">
         <a href="">
           <div class="mac item">
-            <img src="./img/LandingPage/store-card-mac.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-mac.png" alt="">
             <span>Mac</span>
           </div>
         </a>
         <a href="">
           <div class="iphone item">
-            <img src="./img/LandingPage/store-card-iphone.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-iphone.png" alt="">
             <span>IPhone</span>
           </div>
         </a>
         <a href="">
           <div class="ipad item">
-            <img src="./img/LandingPage/store-card-ipad.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-ipad.png" alt="">
             <span>IPad</span>
           </div>
         </a>
         <a href="">
           <div class="watch item">
-            <img src="./img/LandingPage/store-card-watch.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-watch.png" alt="">
             <span>Apple Watch</span>
           </div>
         </a>
         <a href="">
           <div class="airpods item">
-            <img src="./img/LandingPage/store-card-airpods.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-airpods.png" alt="">
             <span>AirPods</span>
           </div>
         </a>
         <a href="">
           <div class="airtags item">
-            <img src="./img/LandingPage/store-card-airtags.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-airtags.png" alt="">
             <span>AirTag</span>
           </div>
         </a>
         <a href="">
           <div class="homepod item">
-            <img src="./img/LandingPage/store-card-homepod.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-homepod.png" alt="">
             <span>HomePod</span>
           </div>
         </a>
         <a href="">
           <div class="accessories item">
-            <img src="./img/LandingPage/store-card-accessories.png" alt="">
+            <img src="./img/LandingPage/new-collection/store-card-accessories.png" alt="">
             <span>Accessories</span>
           </div>
         </a>
@@ -118,11 +131,459 @@
       <h2>Ex.iphones</h2>
       <h4>From $25,000 to $10,000. Every Model Ever Built</h4>
       <div class="btns">
-        <button class="btn primary">Buy</button>
-        <button class="btn secondary">Learn more</button>
+        <button class="btn btn-big primary">Buy</button>
+        <button class="btn btn-big secondary">Learn more</button>
       </div>
     </div>
     <img src="./img/LandingPage/models.png" alt="">
+  </div>
+
+  <!-- SLIDER -->
+  <div id="slider">
+    <div class="container">
+      <h2>Newest ex-iphones. Collection</h2>
+      <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-15-pro-max.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 15 pro max</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-15-pro.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 15 pro</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-15-plus.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 15 plus</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-15.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 15</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-14-pro-max.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 14 pro max</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-14-pro.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 14 pro</p>
+                  <small>From $75,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-14-plus.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 14 plus</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-14.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 14</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-13-pro-max.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 13 pro max</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-13-pro.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 13 pro</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-13-mini.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 13 mini</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-13.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 13</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-12-pro-max.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 12 pro max</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-12-pro.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 12 pro</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-11-pro-max.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 11 pro max</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-11-pro.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 11 pro</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-11.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 11</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-x.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone x</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-xr.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone xr</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-xs.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone xs</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-xs-max.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone xs max</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-8-plus.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 8 plus</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-8.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 8</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-7-plus.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 7 plus</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-7.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 7</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-6s-plus.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 6s plus</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-6s.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 6s</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-6-plus.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 6 plus</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+            <li class="splide__slide">
+              <a href="">
+                <div class="img-holder">
+                  <img src="./img/Product Listing Page/Iphone/apple-iphone-6.png" alt="">
+                </div>
+                <div class="info">
+                  <span>New</span>
+                  <p>iphone 6</p>
+                  <small>From $59,000</small>
+                  <button class="btn primary">
+                    Buy
+                  </button>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
