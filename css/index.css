@@ -35,6 +35,10 @@ li {
   margin-bottom: 0;
 }
 
+input:focus {
+  box-shadow: none !important;
+}
+
 a {
   text-decoration: none;
   color: var(--color-gray);
@@ -70,6 +74,14 @@ h2 {
   padding: 10px 30px;
   font-size: 0.9rem;
   border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: var(--color-primary);
+  opacity: .8;
+  color: #fff;
+  transition: .3s ease;
+  cursor: pointer;
 }
 
 .btn-big {
@@ -228,6 +240,7 @@ header .hero-img {
   display: flex;
   gap: 10px;
 }
+
 #slider {
   text-align: center;
 }
@@ -235,6 +248,7 @@ header .hero-img {
 #slider h2 {
   color: #000;
 }
+
 #slider .img-holder {
   width: 60%;
   height: 400px;
@@ -257,4 +271,146 @@ header .hero-img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* Footer */
+
+footer{
+  width: 100%;
+  background: linear-gradient(340deg, #383638 2.06%, #0B0B0B 33.08%);
+  padding-bottom: 10px;
+}
+
+footer .container {
+  display: flex;
+  padding: 60px 0;
+  justify-content: space-between;
+}
+
+footer small {
+  font-size: .7rem;
+  color: var(--color-primary);
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer input.form-control {
+  padding: 10px 15px;
+}
+
+footer a.logo {
+  height: fit-content;
+  width: fit-content;
+}
+
+.footer-container button {
+  color: #f5f5f7;
+  font-weight: 600;
+}
+
+.fleft {
+  flex-basis: 35%;
+}
+
+.fleft small:last-of-type {
+  margin-bottom: 0;
+}
+
+.fleft small a {
+  font-size: .6rem;
+  color: gray;
+  text-transform: capitalize;
+}
+
+.form-cont {
+  background: linear-gradient(160deg, rgb(23, 24, 28), rgba(23, 26, 28, 0.51));
+  width: 100%;
+  padding: 35px 40px;
+  position: relative;
+  color: #f5f5f7;
+  border-radius: 10px;
+  flex-basis: 25%;
+}
+
+.form-cont h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.form-cont h4 span {
+  color: var(--color-gray);
+}
+
+.form-cont label {
+  font-size: .9rem;
+  color: var(--color-gray);
+  margin-bottom: 3px;
+}
+
+.form-cont .input-group {
+  margin-bottom: 20px;
+}
+
+.form-cont button {
+  margin-bottom: 70px;
+}
+
+.fright {
+  padding: 50px 0;
+  flex-basis: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer .fright a {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.fright1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr .3fr;
+  row-gap: 3rem;
+}
+
+footer ul {
+  list-style-type: none;
+  width: 40%;
+  padding-left: 0;
+}
+
+
+footer .icons {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer .icons a {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+footer .icon {
+  border: 1px solid var(--color-gray);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .icon i {
+  font-size: 1.3rem;
+}
+
+footer .copyright {
+  font-size: .7rem;
+  display: block;
+  text-align: center;
 }

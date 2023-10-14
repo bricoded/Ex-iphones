@@ -1,0 +1,142 @@
+.login-container{
+    background: #f5f5f7;
+    padding: 100px;
+}
+
+.login-container .container{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    z-index: -1;
+}
+
+.left {
+    height: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.left img {
+    width: 100%;
+}
+
+.right {
+    height: 100%;
+    padding: 50px;
+    border: 1px solid #eceef0;
+    box-shadow: 0px 0px 5px #e4e7e9;
+    border-radius: 20px;
+}
+
+.login-container .logo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.login-container .ficon {
+    display: block;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.login-container h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.login-container a {
+    color: var(--color-primary);
+}
+
+.login-container form input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+    margin-left: 0;
+}
+
+:is(.login-container form) :is(label, .input-group) {
+    margin-bottom: 10px;
+}
+
+.login-container form .google {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e7e9;
+    padding: 10px;
+    border-radius: 30px;
+    gap: 10px;
+}
+
+.login-container button{
+    width: 100%;
+    margin: 10px 0;
+}
+@media screen and (max-width: 480px) {
+    .fright {
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .right {
+        width: 20.625rem;
+        margin-left: 40px;
+        height: 900px;
+
+
+
+    }
+
+    .rig form {
+        width: 260px;
+
+    }
+
+    .left {
+        display: none;
+    }
+
+    .login-container {
+        padding: 0;
+    }
+
+    .smicons {
+        margin-top: 0;
+    }
+
+    .icon {
+        width: 100px;
+        padding: 15px;
+        border-radius: 150px;
+        height: 3.125rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .logo2 {
+        position: absolute;
+        bottom: 0%;
+        left: 49%;
+        width: 15%;
+
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 0%;
+        right: 10%;
+        width: 6.25rem;
+
+    }
+}
