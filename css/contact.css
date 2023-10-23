@@ -50,7 +50,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.left-cont p{
+.cinfo p{
   margin-left: 13px;
 }
 .ci{
@@ -62,7 +62,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 0;
+
 }
 #formleft{
 width: 350px;
@@ -92,6 +92,7 @@ justify-content: space-between;
   padding: 10px 300px;
   border-radius: .3125rem;
   border: .5px solid var(--color-gray);
+  margin-top: 10px;
 
 }
 .furm{
@@ -115,6 +116,10 @@ justify-content: space-between;
   margin-top: 200px ;
 }
 .icons a {
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 40px;
+  height: 40px;
+}
+form .btn{
+  padding: 14px 70px;
+  margin-top: 30px;
 }
