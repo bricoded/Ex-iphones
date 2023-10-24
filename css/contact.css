@@ -1,0 +1,125 @@
+:root {
+    --color-gray: #8B8E99;
+    --color-white: #fff;
+    --color-primary: #3858d6;
+    --color-off-white: #e9e9e962;
+  }
+#containerx{
+    margin-top: 3.125rem;
+    height: 90vh;
+    width: 100%;
+    /* background-color:var(--color-gray); */
+    background-color: var(--color-off-white);
+    padding:50px 100px;
+    /* display: flex; */
+    
+}
+.dcont{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10px;
+}
+.left-cont{
+  width: 35%;
+  background-image: url(../img/Vector.png);
+  height: 100%;
+  background-size: cover;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 40px;
+  color: var(--color-white);
+  
+}
+.right-cont{
+  width: 65%;
+  background-color: var(--color-white);
+  height: 100%;
+  padding: 40px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+  
+}
+.left-cont h4{
+color:var(--color-white);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.cinfo p{
+  margin-left: 13px;
+}
+.ci{
+  display: flex;
+}
+.cit{
+color: var(--color-off-white);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#formleft{
+width: 350px;
+height: 200px;
+justify-content: space-between;
+}
+.right-cont label{
+  margin-top: 3.125rem;
+}
+
+.checkb{
+  margin-top: 4.375rem;
+  
+}
+.check{
+  display: flex;
+  justify-content: space-between;
+}
+#checkbox{
+  margin: 7px;
+}
+
+.checkb label{
+  margin-top: 0px;
+}
+#message{
+  padding: 10px 300px;
+  border-radius: .3125rem;
+  border: .5px solid var(--color-gray);
+  margin-top: 10px;
+
+}
+.furm{
+  display: flex;
+  width: 720;
+  justify-content: space-between;
+}
+.icon {
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+.icons {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 200px ;
+}
+.icons a {
+  width: 40px;
+  height: 40px;
+}
+form .btn{
+  padding: 14px 70px;
+  margin-top: 30px;
+}
