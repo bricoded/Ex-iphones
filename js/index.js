@@ -31,15 +31,3 @@ const splide2 = new Splide('#slider2', {
 })
 
 splide2.mount();
-
-//navbar responsiveness
-
-
-function showsidebar () {
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = ('flex')
-}
-function hidebar (){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = ('none')
-}
