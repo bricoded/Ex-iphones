@@ -616,6 +616,16 @@ footer .copyright {
   .x{
     display:flex;
   }
+ footer .container{
+  flex-direction: column;
+  width: 100%;
+  padding: 0 30px;
+ }
+ footer .fright{
+  padding: 10px;
+  
+  
+ }
  
 }
 @media screen and (max-width: 800px) {
